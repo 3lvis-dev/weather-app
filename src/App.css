@@ -1,0 +1,138 @@
+/* <========================= Principal Container =========================>*/
+.App {
+    background-image: url(https://i.gifer.com/bFF.gif);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+}
+
+/* <========================= Load time Screen =========================>*/
+.load {
+    background: hsla(0,0%,100%,.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #772efd;
+    width: 100vw;
+    height: 100vh;
+    gap: 1rem;
+}
+.load img {
+    width: 10rem;
+}
+
+/* <========================= Principal Card =========================>*/
+.card__weather{
+    background: hsla(0,0%,100%,.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    width: 70%;
+    height: 600px;
+    margin-top: 7rem;
+} 
+
+/* <========================= Pricipal Title =========================>*/
+.card__weather--title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    line-height: 6rem;
+    color: #772efd;
+    width: 100%;
+    height: 30%;
+}
+
+/* <========================= Card Info =========================>*/
+.card__weather--info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: #772efd;
+    width: 100%;
+}
+.card__weather--img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.card__weather--items {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+}
+.card__weather--items ul {
+    list-style: none;
+    line-height: 4rem;
+}
+
+.card__weather--info strong {
+    color: black;
+}
+
+/* <========================= Temperature =========================>*/
+.card__temperature {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    font-size: 2.2rem;
+}
+
+/* <========================= Card Button =========================>*/
+.card__weather--btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+.card__weather--btn button{
+    background: #772efd;
+    width: 55%;
+    height: 50px;
+    border: 0;
+    border-radius: 0.4rem;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* <========================= Media Querys =========================>*/
+@media (min-width: 700px) {
+    .card__weather{
+        max-width: 500px;
+        height: 600px;
+    }
+    .card__weather--title {
+        height: 30%;
+    }
+    .card__weather--info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 45%;
+    }
+    .card__weather--img img {
+        width: 60%;
+    }
+}

@@ -49,9 +49,9 @@ const CardWeather = ({lat, lon}) => {
                     <div className='card__weather--items'>
                         <ul>
                             <li>&#34;{weather?.weather[0].description}&#34;</li>
-                            <li><span>icon</span> Wind speed: <strong>{weather?.wind.speed}m/s</strong></li>
-                            <li><span>icon</span> Clouds: <strong>{weather?.clouds.all}%</strong></li>
-                            <li><span>icon</span> Pressure: <strong>{weather?.main.pressure}mb</strong></li>
+                            <li><span><i className="fi fi-rs-wind"></i></span> Wind speed: <strong>{weather?.wind.speed}m/s</strong></li>
+                            <li><span><i className="fi fi-rs-clouds-sun"></i></span> Clouds: <strong>{weather?.clouds.all}%</strong></li>
+                            <li><span><i className="fi fi-rs-temperature-high"></i></span> Pressure: <strong>{weather?.main.pressure}mb</strong></li>
                         </ul>
                     </div>
                 </div>

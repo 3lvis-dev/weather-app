@@ -1,3 +1,7 @@
+:root {
+  --colorLetters:hsl(11, 80%, 60%);
+}
+
 * {
   margin: 0;
   padding: 0;

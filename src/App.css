@@ -1,9 +1,7 @@
 /* <========================= Principal Container =========================>*/
 .App {
-    background-image: url(https://i.gifer.com/bFF.gif);
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     display: flex;
     flex-direction: column;
     align-items: center;

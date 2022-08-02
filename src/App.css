@@ -34,9 +34,9 @@
     justify-content: center;
     align-items: center;
     border-radius: 1.5rem;
-    width: 70%;
-    height: 600px;
-    margin-top: 5rem;
+    width: 80%;
+    height: 550px;
+    margin-top: 3rem;
 } 
 
 /* <========================= Pricipal Title =========================>*/
@@ -118,9 +118,9 @@
 
 /* <========================= Media Querys =========================>*/
 @media (min-width: 700px) {
-    .card__weather{
+    .card__weather {
         max-width: 500px;
-        height: 600px;
+        height: 550px;
     }
     .card__weather--title {
         height: 30%;

@@ -1,5 +1,6 @@
 /* <========================= Principal Container =========================>*/
 .App {
+    background-color: #A66CFF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,9 +8,9 @@
     height: 100vh;
 }
 
-/* <========================= Load time Screen =========================>*/
+/* <========================= Load Screen =========================>*/
 .load {
-    background: hsla(0,0%,100%,.7);
+    background-color: #1C3879;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,6 +18,7 @@
     font-size: 1.2rem;
     width: 100vw;
     height: 100vh;
+    color: #772efd;
     gap: 1rem;
 }
 
@@ -33,10 +35,11 @@
     width: 64px;
     height: 64px;
     margin: 8px;
-    border: 8px solid blue;
+    border: 8px solid #772efd;
+    ;
     border-radius: 50%;
     animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-    border-color: blue transparent transparent transparent;
+    border-color: #772efd transparent transparent transparent;
   }
   .lds-ring div:nth-child(1) {
     animation-delay: -0.45s;
@@ -59,12 +62,8 @@
 
 /* <========================= Principal Card =========================>*/
 .card__weather{
-    /* background: hsla(0,0%,100%,.7); */
     background-color: #08AEEA;
     background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
-
-    /* background-color: #52ACFF;
-    background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%); */
     display: flex;
     flex-direction: column;
     justify-content: center;

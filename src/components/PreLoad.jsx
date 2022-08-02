@@ -11,6 +11,7 @@ const PreLoad = () => {
         <div></div>
       </div>
       <h2>Loading</h2>
+      
     </div>
   )
 }
